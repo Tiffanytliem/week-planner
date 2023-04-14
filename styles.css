@@ -47,6 +47,7 @@ body {
   top: calc(45vh - (250px/2));
   left: calc(50% - 300px);
   padding: 0 30px;
+  background-color: white;
 }
 
 .select {
@@ -84,4 +85,13 @@ body {
 #time-select,
 #submit {
   font-family: "Varela Round", sans-serif;
+}
+
+.modal-container {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.6);
 }
