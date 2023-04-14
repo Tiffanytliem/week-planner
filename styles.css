@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Varela Round", sans-serif;
+  margin: auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.column-full {
+  flex-basis: 100%;
+  text-align: center;
+}
+
+.column-seventh {
+  flex-basis: 10%;
+  text-align: center;
+  border: solid black 1px;
+  border-radius: 4px;
+}
