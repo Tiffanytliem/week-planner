@@ -41,9 +41,47 @@ body {
 
 .modal {
   border: solid 1px black;
-  width: 500px;
+  width: 600px;
   height: 250px;
   position: absolute;
   top: calc(45vh - (250px/2));
-  left: calc(50% - 250px);
+  left: calc(50% - 300px);
+  padding: 0 30px;
+}
+
+.select {
+  justify-content: start;
+}
+
+.column-sixth {
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
+
+.heading {
+  font-size: 25px;
+  margin: 10px 0;
+}
+
+#description {
+  width: 540px;
+  font-family: "Varela Round", sans-serif;
+}
+
+.column-auto {
+  flex-basis: auto;
+  justify-content: end;
+}
+
+.row-submit {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: end;
+  margin-top: 10px;
+}
+
+#day-select,
+#time-select,
+#submit {
+  font-family: "Varela Round", sans-serif;
 }
